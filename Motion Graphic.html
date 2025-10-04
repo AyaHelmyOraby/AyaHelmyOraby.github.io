@@ -6,6 +6,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Extra styling for visuals */
+			#cover {
+				background: url("images/cover-bg.jpg") center/cover no-repeat;
+				text-align: center;
+				padding: 150px 20px;
+			}
+			#cover h1, #cover p {
+				color: white;
+			}
+			#about, #course, #projects, #contact {
+				padding: 60px 20px;
+				margin: 40px auto;
+				border-radius: 12px;
+				background: #f9f9f9;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+			}
+			#course ul {
+				list-style: none;
+				padding: 0;
+			}
+			#course ul li {
+				padding: 8px;
+				margin: 6px 0;
+				background: #fff;
+				border-left: 5px solid #ff4d4d;
+				box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+			}
+			#projects article {
+				background: white;
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+			}
+			#contact ul {
+				list-style: none;
+				padding: 0;
+			}
+			#contact ul li {
+				padding: 10px;
+				margin-bottom: 10px;
+				background: #fff;
+				border-left: 5px solid #0077b5;
+				box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -14,12 +60,10 @@
 
 			<!-- Cover Section -->
 			<section id="cover" class="major">
-<header class="major" style="color: white;">
-  <h1 style="color: white; padding-top: 120px;" >Aya Oraby</h1>
-  <p>🎬 Motion Graphics Designer</p>
-</header>
-
-
+				<header class="major">
+				  <h1 style="padding-top: 20px;">Aya Oraby</h1>
+				  <p>🎬 Motion Graphics Designer</p>
+				</header>
 			</section>
 
 			<!-- Nav -->
@@ -42,40 +86,33 @@
 				<!-- About Section -->
 				<section id="about">
 					<header class="major">
-						<h2>About Me</h2>
+						<h2>👩‍🎨 About Me</h2>
 					</header>
-					<p>
-						I am a passionate Motion Graphics Designer skilled in 2D animation, typography, and visual storytelling. 
+					<img src="images/about-me.png" alt="About Me" style="max-width:150px; border-radius:50%; display:block; margin:auto;">
+					<p style="text-align:center; margin-top:20px;">
+						I am a passionate Motion Graphics Designer skilled in <strong>2D animation, typography, and visual storytelling</strong>. 
 						My focus is on creating engaging and meaningful visual content using Adobe Illustrator, After Effects, and Premiere Pro.
 					</p>
 				</section>
 
+				<!-- Course Section -->
 				<section id="course" class="main">
-  <header class="major">
-    <h2>📚 NTI Motion Graphics Course</h2>
-  </header>
-  <p>
-    This professional training program was conducted at the 
-    <strong>National Telecommunication Institute (NTI)</strong>, 
-    a leading educational center under the 
-    <strong>Ministry of Communication and Information Technology (MCIT)</strong> in Egypt.  
-    The program is designed to prepare participants for careers in motion design, covering both 
-    the creative and technical aspects of the field.
-  </p>
-  <p>
-    The course focuses on <strong>Adobe Illustrator</strong>, <strong>After Effects</strong>, and 
-    <strong>Premiere Pro</strong>, teaching design principles, animation techniques, and professional video editing.  
-    It emphasizes creativity, portfolio development, and real-world project skills to build strong 
-    career opportunities in the media and creative industries.
-  </p>
-  <ul>
-    <li><strong>Adobe Illustrator:</strong> Tools, typography, icons, and preparing assets for animation.</li>
-    <li><strong>Adobe After Effects:</strong> Storyboarding, keyframes, transitions, 3D, and character animation.</li>
-    <li><strong>Adobe Premiere Pro:</strong> Video editing, graphics integration, and exporting for multiple platforms.</li>
-    <li><strong>Final Project:</strong> Developing a complete professional motion graphics portfolio.</li>
-  </ul>
-</section>
-
+					<header class="major">
+						<h2>📚 NTI Motion Graphics Course</h2>
+					</header>
+					<img src="images/nti-logo.png" alt="NTI Logo" style="max-width:200px; display:block; margin:auto;">
+					<p>
+						Professional training at <strong>National Telecommunication Institute (NTI)</strong>, 
+						under the <strong>Ministry of Communication and Information Technology (MCIT)</strong>, Egypt.  
+						The program prepared participants for careers in motion design with both creative and technical expertise.
+					</p>
+					<ul>
+						<li>🎨 <strong>Adobe Illustrator:</strong> Assets, typography & icons for animation</li>
+						<li>✨ <strong>Adobe After Effects:</strong> Storyboarding, keyframes, transitions & 3D</li>
+						<li>🎬 <strong>Adobe Premiere Pro:</strong> Video editing, graphics & exports</li>
+						<li>📂 <strong>Final Project:</strong> Professional motion graphics portfolio</li>
+					</ul>
+				</section>
 
 				<!-- Projects Section -->
 				<section id="projects">
@@ -86,7 +123,9 @@
 						<a href="https://drive.google.com/file/d/1ci7D6G1Gfi6k9VU469aw3aO0ETiG5xDq/view?usp=drive_link" class="image fit" target="_blank">
 							<img src="images/Portfolio.png" alt="Motion Graphic Project" />
 						</a>
-						<p>A creative 2D motion graphics project showcasing animation, typography, and storytelling.</p>
+						<p style="text-align:center;">
+							A creative 2D motion graphics project showcasing animation, typography, and storytelling.
+						</p>
 						<ul class="actions special">
 							<li><a href="https://drive.google.com/drive/folders/1XjMBZTVRumvPQK0Tzvxu-KvsCribNLen?usp=drive_link" class="button large" target="_blank">View Portfolio Video</a></li>
 						</ul>
@@ -98,12 +137,12 @@
 					<header class="major">
 						<h2>📞 Contact</h2>
 					</header>
-					<p>Feel free to reach out for collaborations or freelance opportunities.</p>
+					<p style="text-align:center;">Feel free to reach out for collaborations or freelance opportunities.</p>
 					<ul>
-						<li><strong>Phone:</strong> +20 1101610715</li>
-						<li><strong>Email:</strong> araby8583@gmail.com</li>
+						<li>📱 <strong>Phone:</strong> +20 1101610715</li>
+						<li>📧 <strong>Email:</strong> araby8583@gmail.com</li>
 					</ul>
-					<ul class="icons alt">
+					<ul class="icons alt" style="text-align:center;">
 						<li><a href="https://www.linkedin.com/in/aya-oraby-501501244/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://github.com/AyaHelmyOraby" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 					</ul>
@@ -124,12 +163,3 @@
 
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
